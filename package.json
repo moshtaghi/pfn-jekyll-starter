@@ -1,0 +1,38 @@
+{
+  "name": "pfn-site-foundation",
+  "version": "1.0.0",
+  "description": "the ParsFiberNet site foundation based on jekyll",
+  "main": "gulpfile.js",
+  "author": "Mehdi Moshtaghi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:moshtaghi/pfn-site-foundation.git"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --production",
+    "test": "gulp build --production"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "cross-spawn": "^5.1.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-if": "^2.0.2",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "js-yaml": "^3.10.0",
+    "require-dir": "^0.3.2",
+    "run-sequence": "^2.2.0",
+    "vazir-font": "^16.1.0",
+    "yargs": "^10.0.3"
+  }
+}
