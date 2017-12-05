@@ -14,4 +14,18 @@ repo:
 disqus_shortname: 
 disqus_site_shortname: 
 
-exclude: ["gulp", "node_modules", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "package-lock.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
+exclude:
+  - gulp
+  - node_modules
+  - config.rb
+  - src
+  - Gemfile
+  - Gemfile.lock
+  - .rvmrc
+  - .rbenv-version
+  - package.json
+  - package-lock.json
+  - gulpfile.js
+  - README.md
+  - Rakefile
+  - changelog.md
