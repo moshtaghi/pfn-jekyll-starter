@@ -1,2 +1,2 @@
-# PFN Site Foundation
-The ParsFiberNet site foundation based on jekyll
+# PFN jekyll Starter
+The ParsFiberNet jekyll starter
