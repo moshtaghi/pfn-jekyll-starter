@@ -1,0 +1,17 @@
+# Build settings
+permalink   : /:title/
+highlighter : rouge
+comments: true
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# SEO settings
+title: pfn site foundation
+description: the ParsFiberNet site foundation based on jekyll
+google_analytics: 
+repo: 
+disqus_shortname: 
+disqus_site_shortname: 
+
+exclude: ["gulp", "node_modules", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "package-lock.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
