@@ -1,0 +1,76 @@
+---
+layout: compress
+---
+
+
+<!doctype html>
+<html class="no-js" lang="{{ site.language}} ">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{% if page.title %}{{ page.title }} &ndash; {% endif %}{{ site.title }}</title>
+        <meta name="description" content="{{ site.description }}" />
+        <meta name="google-site-verification" content="{{ site.google-verification }}">
+        <link rel="shortcut icon" href="/assets/img/icons/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/icons/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/icons/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/icons/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="/assets/img/icons/apple-touch-icon-precomposed.png">
+        <link rel="stylesheet" href="/assets/css/app.css">
+    </head>
+    <body>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-2195009-2', 'auto');
+            ga('send', 'pageview');
+
+            ga('create', 'UA-2195009-27', 'auto', {name: "foundation"});
+            ga('foundation.send', 'pageview');
+        </script>
+
+        <div class="top-bar">
+            <div class="top-bar-left">
+                <ul class="menu">
+                    <li class="menu-text">استارتر پارس فایبرنت</li>
+                    <li><a href="#">یک</a></li>
+                    <li><a href="#">دو</a></li>
+                    <li><a href="#">سه</a></li>
+                    <li><a href="#">جهار</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="callout large primary">
+            <div class="row column text-center">
+                <h1>{{site.title}}</h1>
+            </div>
+        </div>
+
+        <div class="row" id="content">
+            <div class="medium-8 columns">
+                <div class="blog-post">
+                    <h3>تیتر <small>تاریخ</small></h3>
+                    <img class="thumbnail" src="https://placehold.it/850x350">
+                    <p>{{content}}</p>
+                </div>
+            </div>
+            <div class="medium-3 columns" data-sticky-container>
+                <div class="sticky" data-sticky data-anchor="content">
+                    <h4>دسته‌بندی</h4>
+                    <ul>
+                        <li><a href="#">یک</a></li>
+                        <li><a href="#">دو</a></li>
+                        <li><a href="#">سه</a></li>
+                        <li><a href="#">چهار</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="/assets/js/all.js"></script>
+    </body>
+</html>
