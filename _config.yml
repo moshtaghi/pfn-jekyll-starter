@@ -3,8 +3,6 @@ permalink   : /:title/
 highlighter : rouge
 comments: true
 markdown: kramdown
-plugins:
-  - jekyll-feed
 
 # SEO settings
 title: pfn site foundation

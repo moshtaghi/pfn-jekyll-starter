@@ -15,6 +15,7 @@
     "test": "gulp build --production"
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
     "browser-sync": "^2.18.13",
     "cross-spawn": "^5.1.0",
     "del": "^3.0.0",
@@ -35,5 +36,8 @@
     "run-sequence": "^2.2.0",
     "vazir-font": "^16.1.0",
     "yargs": "^10.0.3"
+  },
+  "dependencies": {
+    "motion-ui": "^1.2.3"
   }
 }
