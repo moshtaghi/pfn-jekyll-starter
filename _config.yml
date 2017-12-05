@@ -1,29 +1,50 @@
-# Build settings
-permalink   : /:title/
-highlighter : rouge
-comments: true
-markdown: kramdown
+# Site settings
+language:               ""
+title:                  "Site Title"
+description:            "Site description"
+google-verification:    ""
 
-# SEO settings
-title: pfn site foundation
-description: the ParsFiberNet site foundation based on jekyll
-google_analytics: 
-repo: 
-disqus_shortname: 
-disqus_site_shortname: 
+# Handling Reading
+include:
+  - ".htaccess"
+  - "_pages"
 
 exclude:
-  - gulp
-  - node_modules
-  - config.rb
-  - src
-  - Gemfile
-  - Gemfile.lock
-  - .rvmrc
-  - .rbenv-version
-  - package.json
-  - package-lock.json
-  - gulpfile.js
-  - README.md
-  - Rakefile
-  - changelog.md
+  - "/assets/"
+  - "bower.json"
+  - "composer.json"
+  - "composer.lock"
+  - "DOC.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "/gulp/"
+  - "gulpfile.js"
+  - "LICENSE.md"
+  - "Makefile"
+  - "node_modules"
+  - "npm-debug.log"
+  - "package.json"
+  - "README.md"
+  - "rev-manifest.json"
+  - "yarn.lock"
+
+# Plugins
+# Add plugins in the Gemfile
+
+# Conversion
+incremental:      true
+
+# Serving
+# url:            ""
+# baseurl:        "" # does not include hostname
+
+# Outputting
+permalink:        "/blog/:year/:title/"
+paginate_path:    "/blog/page:num"
+paginate:         5
+
+compress_html:
+  ignore:
+    envs: [development]
+
+highlighter:      rouge
